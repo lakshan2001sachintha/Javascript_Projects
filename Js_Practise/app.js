@@ -5,7 +5,7 @@
 //increment the count variable when the button is called
 //change the count-el in the HTML to reflect the new count
 
-function methord(){
+/*function methord(){
     console.log(5)
     console.log(4)
 }
@@ -35,4 +35,27 @@ function lap_com(){
 
 lap_com()
 lap_com()
-lap_com()
+lap_com()*/
+
+/*console.log("-------------------")
+
+let count = 0;
+
+function increment(){
+    count = count + 1
+    console.log(count)
+}
+
+console.log("--------------------")*/
+let countEl = document.getElementById("count-el")
+
+console.log(countEl)
+
+let count = 0
+
+function increment(){
+    count = count + 1
+    countEl.innerText = count
+}
+
+//DOM__(Document Object Model)
