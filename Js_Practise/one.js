@@ -9,4 +9,5 @@ let greeting = "Welcome Back "
 
 welcome.innerText = name + greeting 
 
-welcome.innerText = welcome.innerText + "👋"
+welcome.innerText +="👋"
+
