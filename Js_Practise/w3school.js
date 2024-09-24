@@ -1,11 +1,4 @@
-document.getElementById("lak")
-let x1 = 
-document.getElementById("p1").textContent;
-let x2 = 
-document.getElementById("p2").textContent;
-console.log(x1)
-console.log(x2)
-function lakshan(){
-    console.log("Munasinghe rajapaksha sl")
+function checkTicked(){
+    let box = document.getElementById("c1");
+    console.log(box.checked);
 }
-let store = document.getElementById("")
