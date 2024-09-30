@@ -1,4 +1,5 @@
-function checkTicked(){
-    let box = document.getElementById("c1");
-    console.log(box.checked);
+let i = 8;
+while(i>5){
+    alert(i);
+    i=i+1;
 }
